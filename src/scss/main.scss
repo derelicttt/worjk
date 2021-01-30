@@ -1,0 +1,33 @@
+//@import "mixins";
+@import "fonts";
+//@import "vendor";
+//@import "vars";
+//@import "settings";
+
+body,footer,container{
+background-color: #0B1D26;
+  font-family: 'Montserrat', sans-serif;
+}
+.s1{
+  background-image: url("../img/bg.png");
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  position: relative
+}
+
+.line{
+display: inline-flex;
+  vertical-align: middle
+}
+.be{
+  text-align: initial;
+}
+
+p{
+  color: #FBD784;
+}
+
+
+
+
