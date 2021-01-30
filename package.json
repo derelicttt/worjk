@@ -1,14 +1,14 @@
 {
   "name": "webpack-lesson",
   "version": "1.0.0",
-  "description": "simple webpack",
+  "description": "simple ",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "start": "cross-env NODE_ENV=development webpack serve --mode development"
   },
-  "author": "Maksim",
+  "author": "Oleksandr Dzyndzyura",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.7",
