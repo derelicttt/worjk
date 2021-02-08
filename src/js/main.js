@@ -3,12 +3,15 @@ import '../scss/main.scss';
 import '../index.html';
 
 
-new fullpage('#fullpage', {
+
+new fullpage('#fullPage', {
     //options here
-    autoScrolling:true,
+    autoScrolling:false, //якщо поставите true то чомусь секціїї не будуть відображатись
     navigation: true,
     verticalCentered: false,
-}),
+    showActiveTooltip: true,
+    scrollingSpeed: 1000,
+});
 
-AOS.init({duration:1600,
+AOS.init({duration:5600,
 });
